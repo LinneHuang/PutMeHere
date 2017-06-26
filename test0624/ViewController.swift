@@ -58,6 +58,7 @@ class ViewController: UIViewController {
         cubeNode.position = SCNVector3(cc.x, cc.y, cc.z)
         
         sceneView.scene.rootNode.addChildNode(cubeNode) // *Putting the cup based on the root node
+        print("So cube is here:", cc.x, cc.y, cc.z)
     }
     
     @IBAction func addCup(_ sender: Any) {
@@ -81,6 +82,7 @@ class ViewController: UIViewController {
         cupNode.addChildNode(wrapperNode)
         
         sceneView.scene.rootNode.addChildNode(cupNode)
+        print("So cup is here:", cc.x, cc.y, cc.z)
     }
     
     // 3-1 - - - GET CAMERA COORDINATES
@@ -95,9 +97,9 @@ class ViewController: UIViewController {
         let cameraCoordinates = MDLTransform(matrix: cameraTransform!)
         
         var cc = myCameraCoordinates()
-        cc.x = cameraCoordinates.translation.x
-        cc.y = cameraCoordinates.translation.y
-        cc.z = cameraCoordinates.translation.z
+        cc.x = cameraCoordinates.translation.x - 0.2
+        cc.y = cameraCoordinates.translation.y - 0.2
+        cc.z = cameraCoordinates.translation.z - 0.2
         
         return cc
     }
