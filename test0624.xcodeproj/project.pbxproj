@@ -14,6 +14,8 @@
 		00A0CF491EFECED4006A9D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A0CF471EFECED4006A9D82 /* LaunchScreen.storyboard */; };
 		00A0CF541EFECED4006A9D82 /* test0624Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0CF531EFECED4006A9D82 /* test0624Tests.swift */; };
 		00A0CF5F1EFECED4006A9D82 /* test0624UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A0CF5E1EFECED4006A9D82 /* test0624UITests.swift */; };
+		00A0CF6D1EFEDD5B006A9D82 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A0CF6C1EFEDD5B006A9D82 /* Models.scnassets */; };
+		00A0CF6F1EFEDD68006A9D82 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A0CF6E1EFEDD68006A9D82 /* Models.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		00A0CF5A1EFECED4006A9D82 /* test0624UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test0624UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A0CF5E1EFECED4006A9D82 /* test0624UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test0624UITests.swift; sourceTree = "<group>"; };
 		00A0CF601EFECED4006A9D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A0CF6C1EFEDD5B006A9D82 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = Models.scnassets; path = ../../../Downloads/Models.scnassets; sourceTree = "<group>"; };
+		00A0CF6E1EFEDD68006A9D82 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				00A0CF3D1EFECED4006A9D82 /* test0624 */,
+				00A0CF6C1EFEDD5B006A9D82 /* Models.scnassets */,
 				00A0CF521EFECED4006A9D82 /* test0624Tests */,
 				00A0CF5D1EFECED4006A9D82 /* test0624UITests */,
 				00A0CF3C1EFECED4006A9D82 /* Products */,
@@ -101,6 +106,7 @@
 				00A0CF401EFECED4006A9D82 /* ViewController.swift */,
 				00A0CF421EFECED4006A9D82 /* Main.storyboard */,
 				00A0CF451EFECED4006A9D82 /* Assets.xcassets */,
+				00A0CF6E1EFEDD68006A9D82 /* Models.scnassets */,
 				00A0CF471EFECED4006A9D82 /* LaunchScreen.storyboard */,
 				00A0CF4A1EFECED4006A9D82 /* Info.plist */,
 			);
@@ -230,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				00A0CF491EFECED4006A9D82 /* LaunchScreen.storyboard in Resources */,
+				00A0CF6D1EFEDD5B006A9D82 /* Models.scnassets in Resources */,
 				00A0CF461EFECED4006A9D82 /* Assets.xcassets in Resources */,
+				00A0CF6F1EFEDD68006A9D82 /* Models.scnassets in Resources */,
 				00A0CF441EFECED4006A9D82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
