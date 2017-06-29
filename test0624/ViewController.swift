@@ -97,9 +97,9 @@ class ViewController: UIViewController {
         let cameraCoordinates = MDLTransform(matrix: cameraTransform!)
         
         var cc = myCameraCoordinates()
-        cc.x = cameraCoordinates.translation.x - 0.2
-        cc.y = cameraCoordinates.translation.y - 0.2
-        cc.z = cameraCoordinates.translation.z - 0.2
+        cc.x = cameraCoordinates.translation.x
+        cc.y = cameraCoordinates.translation.y
+        cc.z = cameraCoordinates.translation.z
         
         return cc
     }
